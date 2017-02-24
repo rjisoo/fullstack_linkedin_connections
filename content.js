@@ -1,19 +1,16 @@
 $(document).ready(() => {
-  console.log("WHAT???")
   let $connect = $("span:contains('Connect')");
 
   $connect.on('click', function() {
-    console.log("just clicked connect")
     setTimeout(() => {
       let $sendnow = $("button:contains('Send now')");
       $sendnow.on('click', function() {
-        console.log("about to close")
         window.close();
       })
       $sendnow.trigger('click');
     }, 1000);
   })
-  console.log("CONNNN", $connect)
+
   if ($connect.length === 0) {
     window.close();
   } else {
