@@ -4,9 +4,9 @@ chrome.extension.onConnect.addListener(function(port) {
        // console.log("message recieved" + msg);
        // port.postMessage("Hi Popup.js");
 
-       console.log('URLS', urls)
+       let urls_arr = urls.match(/\S+/g);
 
-       urls.split(',').forEach((url, i) => {
+       urls_arr.forEach((url, i) => {
           setTimeout(function() {
             chrome.tabs.create({url: url}, function(tab) {
               chrome.tabs.executeScript(null, { file: "jquery.js" }, function() {
