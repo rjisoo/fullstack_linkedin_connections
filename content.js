@@ -1,6 +1,5 @@
 $(document).ready(() => {
-  let $connect = $("span:contains('Connect')");
-
+  let $connect = $("div.pv-top-card-section__body span:contains('Connect')");
   $connect.on('click', function() {
     setTimeout(() => {
       let $sendnow = $("button:contains('Send now')");
