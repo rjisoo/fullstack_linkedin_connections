@@ -27,11 +27,11 @@ Need more information about Chrome Extension? Please visit [Google Chrome Extens
 
 Fullstack LinkedIn Connections takes a list of LinkedIn Urls. It automatically opens LinkedIn Url in new tab, requests, and closes the tab. 
 
-By using our app, connect with developers:
+Connect with developers by using our app!
 
 ```sh
 http://www.linkedin.com/in/rjisoo,
 http://www.linkedin.com/in/damonye,
 http://www.linkedin.com/in/lisa-pan,
-https://www.linkedin.com/in/schen22
+http://www.linkedin.com/in/schen22
 ```
