@@ -16,4 +16,7 @@ chrome.extension.onConnect.addListener(function(port) {
 
 // DEMO LINKS
 
-// https://www.linkedin.com/in/rjisoo/,https://www.linkedin.com/in/damonye/,https://www.linkedin.com/in/lisa-pan/,https://www.linkedin.com/in/sam-wheeler/,https://www.linkedin.com/in/robbyntongue/,https://www.linkedin.com/in/ianmunrobot/,https://www.linkedin.com/in/yoo-nah-park/
+// http://www.linkedin.com/in/rjisoo/,
+// http://www.linkedin.com/in/damonye/,
+// http://www.linkedin.com/in/lisa-pan/,
+// http://github.com/sianokotoba
